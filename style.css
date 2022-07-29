@@ -4,7 +4,7 @@
     box-sizing: border-box;
     background-color: #281154;
 }
-.seconds>h1 ,.minute>h1 , .hours>h1{
+h1 , h2{
     background-color: black;
     color: white;
     padding: 2rem;
@@ -12,6 +12,8 @@
     font-size: 8rem;
 }
 .container{
+    width: 50%;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -55,5 +57,30 @@ h2{
 @media(max-width: 581px){
     html{
         font-size: 65%;
+    }
+}
+@media(max-width: 461px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width: 360px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width: 300px){
+    html{
+        font-size: 25%;
+    }
+}
+@media(max-width: 171px){
+    html{
+        font-size: 20%;
+    }
+}
+@media(max-width: 141px){
+    html{
+        font-size: 10%;
     }
 }

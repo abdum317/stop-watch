@@ -6,6 +6,7 @@ var j = 1;
 var k = 1;
 var countSeconds;
 function stopwatch() {
+    clearInterval(countSeconds);
     countSeconds = setInterval(function () {
         seconds.innerHTML = i;
         i++;
